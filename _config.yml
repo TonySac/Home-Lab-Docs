@@ -1,8 +1,13 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: Home Lab & Automation
+description: Documentation of my home lab and home automation 
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+url: https://homelab.themakermedic.com
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  The Maker Medic: https://themakermedic.com
+
+color_scheme: lab
+
+plugins:
+ - jemoji
