@@ -1,8 +1,28 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: HomeLab Docs
+description: A reference document for my HomeLab Build
 theme: just-the-docs
 
-url: http://homelabdocs.themakermedic.com/
+url: https://homelabdocs.themakermedic.com/
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  The Maker Medic: https://themakermedic.com
+
+color_scheme: dark
+
+plugins:
+ - jemoji
+
+callouts:
+  warning:
+    title: warning
+    color: red
+  note:
+    title: note
+    color: yellow  
+
+defaults:
+  - scope:
+      path: "docs" # an empty string here means all files in the project
+      type: "pages"
+    values:
+      layout: "default"    
