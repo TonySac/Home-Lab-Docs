@@ -18,7 +18,13 @@ callouts:
     color: red
   note:
     title: note
-    color: yellow  
+    color: yellow
+  info:
+    title: info
+    color: grey-dk
+  tip:
+    title: tip
+    color: green  
 
 defaults:
   - scope:

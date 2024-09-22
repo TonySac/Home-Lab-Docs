@@ -3,6 +3,7 @@ title: Home Assistant
 parent: Server Software
 nav_order: 2
 posted: 2024-09-20
+updated: 2024-09-22
 ---
 
 # Home Assistant VM
@@ -52,13 +53,13 @@ With the image downloaded and unzipped, we can build the VM. Select `Create VM`.
 - System
     - Machine: q35
     - BIOS: OVMF (UEFI)
-    - EFI Storage: local-lvm <small>Local-lvm is the likely default</small>
+    - EFI Storage: local-lvm <small><small>*This is the default but may vary based on installation.</small></small>
     - Pre-Enroll Keys: Unchecked
 - Disks
     - Remove any assigned disks
 - CPU:
-    - Cores: 2 <small>Minimum 2 but can be increased</small>
-- Memory: 2048 MB <small>Minimum 2 GB but I use 4 GB (4096 MB)</small>
+    - Cores: 2 <small><small>*This is the minimum.</small></small>
+- Memory: 2048 MB <small><small>*This is the minimum however, I use 4 GB (4096 MB)</small></small>
 
 Verify the selections then finish building but do not start the VM. The disk image needs to be loaded first using the `qm importdisk` command. Be sure to specify the VM ID, 108 in the below example, use the correct image path, and point to the selected EFI storage.
 
@@ -78,8 +79,6 @@ Now, select this new disk for boot. `Options` > `Boot Order` > `Edit`. Select th
 
 Start the VM with the `Start` button in the top right corner and watch the console. As long as no errors appear the console should boot into the familiar Home Assistant CLI and display its IP address. The front end should also be accessible from that local IP as usual.
 
-With the VM running, it is time to start messing around in Home Assistant. Check out my later section on some of the services and automation I've got going on.
+# Next Steps
 
-## Device Passthrough
-
-This section has not been addressed yet. I will cover passing devices to the VM as needed for Home Assistant
+With the VM running, it is time to start messing around in Home Assistant. Check out my upcoming sections on some of the services and automation I've got going on.
