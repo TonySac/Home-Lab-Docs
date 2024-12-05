@@ -1,9 +1,12 @@
 ---
 title: Server
 parent: Hardware
-nav_order: 1
+nav_order: 2
 posted: 2024-09-20
 ---
+
+{: .note}
+UNDER CONSTRUCTION
 
 # Server
 
