@@ -4,7 +4,11 @@ layout: home
 nav_order: 1
 posted: 2024-09-20
 updated: 2024-12-05
+#Looks Good 12/5/24
 ---
+
+{: .note }
+This is a living document. Pages may be incomplete and/or lacking detail. That is to be expected.
 
 # Welcome to my Home Lab Documentation!
 

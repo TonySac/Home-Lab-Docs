@@ -4,7 +4,7 @@ parent: Hardware
 nav_order: 1
 posted: 2024-09-20
 updated: 2024-12-05
-# NEEDS WORK!!
+# Ok up to Switches/APs 12/05/24
 ---
 
 {: .note}
@@ -12,22 +12,24 @@ UNDER CONSTRUCTION
 
 # Networking Hardware
 
-My home came pre-equipped with some decent enterprise grade networking equipment. I further leveled that up with an OPNSense router. I'm also lucky enough to have a cheap, fast, and reliable fiber connection. Im paying $39/month for 100 Mbps. However, as of this writing Ookla Speedtest is reporting 488.26 down and 399.01 up from my WiFi connected laptop.
+My home came pre-equipped with some decent enterprise grade networking equipment. I further leveled that up with an OPNSense router. I'm also lucky enough to have a cheap, fast, and reliable fiber connection. Im paying $39/month for 100 Mbps. However, as of this writing Ookla Speedtest is reporting almost 500 Mbps down and 300 Mbps up from my WiFi connected laptop.
+
+![Ookla speed test results](/assets/speed_test.png)
 
 ## Modem
 
-Nothing special here. I'm using the ISP provided Calix 844e ONT/router combo. Origianlly, I used this as my DHCP server until I added the OPNSense router. That required some config magic on the Calix you can read about here.
+Nothing special here. I'm using the ISP provided Calix 844E-1 ONT/router combo. Originally, I used this as my DHCP server until I added the OPNSense router. That required some config magic on the Calix you can read about [here](/docs/network_configs/modem.html).
 
 ## Router
 
-I picked up a cheap Firebat T8 dual NIC box off AliExpress to run OPNSense. It has the following notable specs:
+I picked up a cheap Firebat T8 dual NIC box off AliExpress to run OPNSense. It has the following specs:
 
  - Intel Celeron N5095 2.00 GHz Quad Core CPU
  - 8 GB RAM
  - 256 GB SSD HD
- - 2x Real-Tek Gigabit NICs
+ - 2x Real-Tek Gigabit NICs (I know...)
 
-More information on my OPNSense configuration can be found here.
+More information on my OPNSense configuration can be found [here](/docs/network_configs/OPNSense.html).
 
 ## Switches & APs
 
