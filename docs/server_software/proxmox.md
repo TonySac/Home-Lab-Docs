@@ -5,6 +5,9 @@ nav_order: 1
 posted: 2024-09-20
 ---
 
+{: .note}
+UNDER CONSTRUCTION
+
 # Proxmox
 
 <img src='/assets/proxmox/pve-neofetch.png'>

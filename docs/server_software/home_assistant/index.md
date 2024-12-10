@@ -6,6 +6,9 @@ posted: 2024-09-20
 updated: 2024-09-22
 ---
 
+{: .note}
+UNDER CONSTRUCTION
+
 # Home Assistant VM
 
 For years I ran Home Assistant in a Docker container. First on a Raspberry Pi then on this same HP T630. With my move to Proxmox, It was time to give the full Home Assistant OS a try in a VM. I only have the one server with no fallback and Home Assistant has become vital in my wife and I's daily routines. Initially I used the [TTeck Home Assistant OS VM Script](https://tteck.github.io/Proxmox/#home-assistant-os-vm) to get things online as fast as possible. Once things were back online, I rebuilt my own VM in the following manner.

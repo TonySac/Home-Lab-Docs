@@ -5,7 +5,8 @@ nav_order: 1
 # posted: 2024-09-21
 ---
 
-:construction: IN PROGRESS
+{: .note}
+UNDER CONSTRUCTION
 
 # Home Assistant
 

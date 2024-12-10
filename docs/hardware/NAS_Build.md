@@ -3,8 +3,8 @@ title: NAS
 parent: Hardware
 nav_order: 3
 posted: 2024-12-05
-updated: 2024-12-08
-# Looks good 12/8/24
+updated: 2024-12-09
+# Looks good 12/9/24
 ---
 
 # DIY NAS
@@ -33,8 +33,8 @@ I chose to build my NAS with the following components:
     - Cost: About $100 on AliExpress
 
 * AUDHEID K3 Case
-    - The same case from the EconoNAS build. I saw the pictures and knew I had to have it. I love the look of the hot swap drive bays.
-    - Cost: $80 on Amazon
+    - The same case from the EconoNAS build. I saw the pictures and knew I had to have it. I love the look of the hot swap drive bays. The included fan was a loud so I swapped it for a Noctua NF-S12A.
+    - Cost: $80 on Amazon + $25 for the fan
 
 * Apevia ITX-AP300W PSU
     - More or less the same PSU from the EconoNAS build. It looks like there have been a few version changes since the original writing.
@@ -42,7 +42,7 @@ I chose to build my NAS with the following components:
 
 * 32GB (2x 16GB) Corsair Vengeance 3200MHz DDR4 SODIMM RAM
     - I doubled up on the RAM from the EconoNAS build just so I had room to grow. I also found what seemed to be a good deal on some decent sticks.
-    - Cost: About $50 on Amazon.
+    - Cost: About $50 on Amazon
 
 * 256GB (2x 128GB) Patriot P320 M.2 NVMe SSD
     - I grabbed these to fill the two NVMe slots on the motherboard. Originally I planned to mirror/stripe them and use them as a boot drive. Now I'm thinking I'll boot from USB and run these as application storage drives. 
@@ -56,7 +56,7 @@ I chose to build my NAS with the following components:
     - I'm pretty sure 2TB usable storage will be more than enough for me on the data side. I was playing around with various RAIDZ configurations and I think I've settled on RAIDZ2 with all 4 drives. My understanding is that gives me 4TB usable storage and 2 drive redundancy. I can also explore adding additional drives with the 2 free SATA ports. Unfortunately one of them was DoA but a replacement is en route.
     - Cost: $30/ea refurbished on Amazon
 
-In total, this build ran me about $425.
+In total, this build ran me about $450.
 
 # Build
 

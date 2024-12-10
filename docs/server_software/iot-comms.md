@@ -5,6 +5,9 @@ nav_order: 8
 posted: 2024-09-21
 ---
 
+{: .note}
+UNDER CONSTRUCTION
+
 # IoT Communications LXC
 
 Once again, I toyed around with the [TTeck scripts](https://tteck.github.io/Proxmox/) to get my initial LXCs running for things like MQTT and ZWave. They worked just fine but I wanted to go the DIY route.

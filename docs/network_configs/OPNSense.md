@@ -7,7 +7,7 @@ posted: 2024-12-05
 ---
 
 {: .note}
-COMING SOON
+UNDER CONSTRUCTION
 
 # OPNSense
 

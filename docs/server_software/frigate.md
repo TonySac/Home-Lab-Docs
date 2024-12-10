@@ -5,6 +5,9 @@ nav_order: 3
 posted: 2024-09-22
 ---
 
+{: .note}
+UNDER CONSTRUCTION
+
 # Frigate LXC
 
 My previous system ran the Frigate Docker container just as the developers intended. I had no issues connecting my cameras or passing through the GPU and USB Coral. I once again used a [TTeck script](https://tteck.github.io/Proxmox/#frigate-lxc) to get my initial Frigate LXC off the ground. Despite using the script, I still needed to work some command line magic to get pass through working properly.

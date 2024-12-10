@@ -6,6 +6,9 @@ posted: 2024-12-05
 # NEEDS PICS otherwise ok 12/05/24
 ---
 
+{: .note}
+UNDER CONSTRUCTION - Awaiting images
+
 # Modem
 
 Lets start with my ISP & modem setup. I have a fiber connection that terminates in my house at a Calix 844GE-1 ONT & router combo.
