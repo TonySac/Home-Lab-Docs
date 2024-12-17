@@ -8,6 +8,17 @@ updated: 2024-12-09
 ---
 
 # DIY NAS
+{: .no_toc}
+
+<details closed markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
+
 
 I've put off setting up a NAS for awhile. Right now I use iCloud for some data storage along with an external Time Machine drive. I also have/had and external drive taped to my server that acts as a single drive NAS of sorts running off an Open Media Vault VM. All good homelabbers have a NAS so I should too. Plus I want to be able to self host most of my storage, have redundancy, and reliability as I add more services. 
 

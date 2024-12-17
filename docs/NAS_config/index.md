@@ -6,6 +6,16 @@ posted: 2024-12-09
 ---
 
 # Configuring my NAS
+{: .no_toc}
+
+<details closed markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
 
 ## Operating System
 
@@ -15,9 +25,9 @@ I went back and forth on the best operating and file systems for my NAS. Ultimat
 
 Currently, the box is outfitted with 4x 2TB 3.5" spinning disks and 2x 128GB NVMe drives. I also have 2 free SATA ports for expansion (if I can find room in the case). 
 
-As of now the plan is to run the 2x NVMe drives as RAIDZ1 for a total of 256GB usable space with some of the ZFS advantages. Unfortunately, there will be no redundancy, but these drives are slated to be application storage and will be backed up to my data storage drives.
+As of now the plan is to run the 2x NVMe drives in RAID0 to take advantage of all 256GB. Unfortunately, there will be no redundancy, but these drives are slated to be application storage and will be backed up to my data storage drives.
 
-The 4x 2TB drives will be used as data storage in a RAIDZ6 configuration. Giving me a total of 4TB usable space with redundancy to support 2 drive failures.
+The 4x 2TB drives will be used as data storage in a RAIDZ2 configuration. Giving me a total of 4TB usable space with redundancy to support 2 drive failures.
 
 ## Backups
 

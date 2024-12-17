@@ -9,6 +9,16 @@ posted: 2024-12-09
 {: .note}
 Much of this section assumes a basic understanding of installing a Linux OS, connecting to the network, and accessing a remote machine either via webGUI or SSH.
 
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
+---
+
 # Installing OpenMediaVault
 
 Being based on Debian, OpenMediaVault uses a standard Debian installation wizard. I [downloaded the latest stable ISO](https://www.openmediavault.org/download.html) (OMV7 as of writing) and wrote it to a USB drive. Set the NAS to boot from USB then followed the steps. I feel anyone embarking on this journey shouldn't need too much handholding here. For reference, here are links to the [OpenMediaVault Installation Instructions](https://docs.openmediavault.org/en/latest/installation/index.html) and [OMV Extras New User Guide](https://wiki.omv-extras.org/doku.php?id=omv7:new_user_guide).

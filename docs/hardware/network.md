@@ -3,8 +3,8 @@ title: Network
 parent: Hardware
 nav_order: 1
 posted: 2024-09-20
-updated: 2024-12-05
-# Ok up to Switches/APs 12/05/24
+updated: 2024-12-12
+# Ok needs links to config sections when completed. Pics of network case. and diagram
 ---
 
 {: .note}
@@ -35,13 +35,13 @@ More information on my OPNSense configuration can be found [here](/docs/network_
 
 ### Ruckus ICX 7150-C12P PoE Switch
 
-I'm running this pretty much as a dumb switch with the exception of adding VLAN tagging to some of the ports. 
+This is a pretty solid switch with a lot of enterprise functionality. I'm able to tag VLAN ports and power quite a few devices. I've got a walkthrough of some of the configuration in the network config section of these docs.
 
 ### Ruckus R510 Wireless AP
 
-This bad boy gives WiFi coverage through my house. I've set it up to broadcast various SSIDs and tag VLANs.
+This bad boy gives WiFi coverage through my house. I've set it up to broadcast various SSIDs for private, guests, and IoT. More information on the configuration is in the network config section.
 
 
 ### Nicgiga 8 Port PoE Switch
 
-Talk about a dumb switch. This thing is just a simple PoE switch I set up as a satellite switch for some cameras.
+Talk about a dumb switch. This thing is just a simple PoE switch I set up as a satellite switch on a VLAN for some cameras.
