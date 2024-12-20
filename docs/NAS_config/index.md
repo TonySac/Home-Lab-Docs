@@ -2,8 +2,12 @@
 title: NAS Config
 nav_order: 97
 posted: 2024-12-09
-#looks good 12/9/24
+updated: 2024-12-20
+#Proofed & Good 12/20/24 (added WIP note)
 ---
+
+{: . note }
+I'm still in the midst of this config process. All the docs in this section are in progress and subject to change.
 
 # Configuring my NAS
 {: .no_toc}
@@ -33,6 +37,6 @@ The 4x 2TB drives will be used as data storage in a RAIDZ2 configuration. Giving
 
 I plan to backup the operating system prior to major updates/changes. The image will be written to a USB drive and validated. I will likely then swap this new drive into production and keep the old one as a backup. This should prove my backup works and give me the ability to just swap out my USB boot media in the event of a catastrophic failure.
 
-The application storage drives will be backed up to my data array. The data array will be synced with my workstation storage for the time being along with one of my cloud providers (probably iCloud). This pretty much covers the 3-2-1 backup rule Eventually, I plan to place an off site NAS at my parents place for a completely self-hosted solution.
+The application storage drives will be backed up to my data array. Irreplaceable data will also be synced with my workstation and iCloud for the time being. This pretty much covers the 3-2-1 backup rule Eventually, I plan to place an off site NAS at my parents place for a completely self-hosted solution.
 
 The following pages outline the installation and configuration of my NAS software:

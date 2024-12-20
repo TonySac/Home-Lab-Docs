@@ -24,7 +24,10 @@ callouts:
     color: grey-dk
   tip:
     title: tip
-    color: green  
+    color: green 
+  credits:
+    title: credit
+    color: purple   
 
 defaults:
   - scope:

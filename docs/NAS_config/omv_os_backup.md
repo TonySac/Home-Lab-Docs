@@ -7,6 +7,9 @@ updated: 2024-12-17
 # looks good 12/17/24
 ---
 
+{: .note}
+UNDER CONSTRUCTION
+
 # Operating System Backup
 
 I choose to keep a backup of my system drive. I installed OMV on a USB drive making it super simple to pop in a new drive and be back up and running if something goes sideways with my installation. I did this for several reasons. First I want my NAS to be as reliable as possible. If I'm storing important data there, I need to make sure I can always access it. I wanted protection from a corrupt drive, bad update, or just me mucking something up.

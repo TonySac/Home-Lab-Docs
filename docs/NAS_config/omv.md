@@ -3,7 +3,8 @@ title: OMV Setup
 parent: NAS Config
 nav_order: 1
 posted: 2024-12-09
-#Looks good 12/9/24 but consider SSH blog post & link
+updated: 2024-12-20
+#Proofed & Good 12/20/24. Need to add SSH blog post & tip
 ---
 
 {: .note}
@@ -23,10 +24,13 @@ Much of this section assumes a basic understanding of installing a Linux OS, con
 
 Being based on Debian, OpenMediaVault uses a standard Debian installation wizard. I [downloaded the latest stable ISO](https://www.openmediavault.org/download.html) (OMV7 as of writing) and wrote it to a USB drive. Set the NAS to boot from USB then followed the steps. I feel anyone embarking on this journey shouldn't need too much handholding here. For reference, here are links to the [OpenMediaVault Installation Instructions](https://docs.openmediavault.org/en/latest/installation/index.html) and [OMV Extras New User Guide](https://wiki.omv-extras.org/doku.php?id=omv7:new_user_guide).
 
-{: .tip}
-OMV uses the entire boot disk for the installation. The boot drive is not intended to also be used for storage. Keep that in mind when selecting a boot disk.
+{: .info}
+OMV uses the entire boot disk for the installation. The boot drive is not intended to be used for storage. Keep that in mind when selecting a boot disk.
 
 After a successful install, the OMV machine should boot to a CLI and display the assigned IP address.
+
+{: .tip}
+Consider setting a static IP address for the OMV appliance. There are multiple ways to do this so I will not go into detail here.
 
 ## OMV-Extras
 
@@ -72,3 +76,4 @@ You should now be able to SSH into the OMV root CLI using `ssh -i ~/.ssh/{keynam
 The last step is to disable password authentication. This is easiest done from the OMV GUI. Under `Services > SSH` just uncheck `Password authentication` then save and apply the config changes. This menu also has the options to disable root SSH login and some tips on adding users to the SSH group.
 
 Now, only the those with the SSH key can remotely access the OMV root CLI and there won't even be the option to brute force a password. This should provide for a relatively secure setup. Once again, security best practice says use SSH keys, disable root SSH, and use a regular user with elevated "sudo" privileges. In this case I'm allowing root SSH access with keys and no other users to have SSH access.
+
